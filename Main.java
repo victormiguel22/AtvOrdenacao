@@ -41,53 +41,53 @@ public class Main {
             System.out.println("\nINVERTIDO:");
             arrayCopy = array.clone();
             SortResult bubbleSortDescResult = Decrescente.bubbleSortDescending(arrayCopy);
-            System.out.println("Bubble Sort Descending - Trocas: " + bubbleSortDescResult.swaps + ", Comparacoes: " + bubbleSortDescResult.comparisons + ", Tempo: " + bubbleSortDescResult.time + " ms (" + bubbleSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Bubble Sort Decrescente - Trocas: " + bubbleSortDescResult.swaps + ", Comparacoes: " + bubbleSortDescResult.comparisons + ", Tempo: " + bubbleSortDescResult.time + " ms (" + bubbleSortDescResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult insertionSortDescResult = Decrescente.insertionSortDescending(arrayCopy);
-            System.out.println("Insertion Sort Descending - Trocas: " + insertionSortDescResult.swaps + ", Comparacoes: " + insertionSortDescResult.comparisons + ", Tempo: " + insertionSortDescResult.time + " ms (" + insertionSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Insertion Sort Decrescente - Trocas: " + insertionSortDescResult.swaps + ", Comparacoes: " + insertionSortDescResult.comparisons + ", Tempo: " + insertionSortDescResult.time + " ms (" + insertionSortDescResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult selectionSortDescResult = Decrescente.selectionSortDescending(arrayCopy);
-            System.out.println("Selection Sort Descending - Trocas: " + selectionSortDescResult.swaps + ", Comparacoes: " + selectionSortDescResult.comparisons + ", Tempo: " + selectionSortDescResult.time + " ms (" + selectionSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Selection Sort Decrescente - Trocas: " + selectionSortDescResult.swaps + ", Comparacoes: " + selectionSortDescResult.comparisons + ", Tempo: " + selectionSortDescResult.time + " ms (" + selectionSortDescResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult mergeSortDescResult = Decrescente.mergeSortDescending(arrayCopy);
-            System.out.println("Merge Sort Descending - Trocas: " + mergeSortDescResult.swaps + ", Comparacoes: " + mergeSortDescResult.comparisons + ", Tempo: " + mergeSortDescResult.time + " ms (" + mergeSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Merge Sort Decrescente - Trocas: " + mergeSortDescResult.swaps + ", Comparacoes: " + mergeSortDescResult.comparisons + ", Tempo: " + mergeSortDescResult.time + " ms (" + mergeSortDescResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult quickSortDescResult = Decrescente.quickSortDescending(arrayCopy);
-            System.out.println("Quick Sort Descending - Trocas: " + quickSortDescResult.swaps + ", Comparacoes: " + quickSortDescResult.comparisons + ", Tempo: " + quickSortDescResult.time + " ms (" + quickSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Quick Sort Decrescente - Trocas: " + quickSortDescResult.swaps + ", Comparacoes: " + quickSortDescResult.comparisons + ", Tempo: " + quickSortDescResult.time + " ms (" + quickSortDescResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult bucketSortDescResult = Decrescente.bucketSortDescending(arrayCopy);
-            System.out.println("Bucket Sort Descending - Trocas: " + bucketSortDescResult.swaps + ", Comparacoes: " + bucketSortDescResult.comparisons + ", Tempo: " + bucketSortDescResult.time + " ms (" + bucketSortDescResult.getTimeInSeconds() + " s)");
+            System.out.println("Bucket Sort Decrescente - Trocas: " + bucketSortDescResult.swaps + ", Comparacoes: " + bucketSortDescResult.comparisons + ", Tempo: " + bucketSortDescResult.time + " ms (" + bucketSortDescResult.getTimeInSeconds() + " s)");
 
             // ALEATORIO
             System.out.println("\nALEATORIO:");
             arrayCopy = array.clone();
             SortResult bubbleSortRandResult = Aleatorio.bubbleSortRandom(arrayCopy);
-            System.out.println("Bubble Sort Random - Trocas: " + bubbleSortRandResult.swaps + ", Comparacoes: " + bubbleSortRandResult.comparisons + ", Tempo: " + bubbleSortRandResult.time + " ms (" + bubbleSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Bubble Sort Aleatório - Trocas: " + bubbleSortRandResult.swaps + ", Comparacoes: " + bubbleSortRandResult.comparisons + ", Tempo: " + bubbleSortRandResult.time + " ms (" + bubbleSortRandResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult insertionSortRandResult = Aleatorio.insertionSortRandom(arrayCopy);
-            System.out.println("Insertion Sort Random - Trocas: " + insertionSortRandResult.swaps + ", Comparacoes: " + insertionSortRandResult.comparisons + ", Tempo: " + insertionSortRandResult.time + " ms (" + insertionSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Insertion Sort Aleatório - Trocas: " + insertionSortRandResult.swaps + ", Comparacoes: " + insertionSortRandResult.comparisons + ", Tempo: " + insertionSortRandResult.time + " ms (" + insertionSortRandResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult selectionSortRandResult = Aleatorio.selectionSortRandom(arrayCopy);
-            System.out.println("Selection Sort Random - Trocas: " + selectionSortRandResult.swaps + ", Comparacoes: " + selectionSortRandResult.comparisons + ", Tempo: " + selectionSortRandResult.time + " ms (" + selectionSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Selection Sort Aleatório - Trocas: " + selectionSortRandResult.swaps + ", Comparacoes: " + selectionSortRandResult.comparisons + ", Tempo: " + selectionSortRandResult.time + " ms (" + selectionSortRandResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult mergeSortRandResult = Aleatorio.mergeSortRandom(arrayCopy);
-            System.out.println("Merge Sort Random - Trocas: " + mergeSortRandResult.swaps + ", Comparacoes: " + mergeSortRandResult.comparisons + ", Tempo: " + mergeSortRandResult.time + " ms (" + mergeSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Merge Sort Aleatório - Trocas: " + mergeSortRandResult.swaps + ", Comparacoes: " + mergeSortRandResult.comparisons + ", Tempo: " + mergeSortRandResult.time + " ms (" + mergeSortRandResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult quickSortRandResult = Aleatorio.quickSortRandom(arrayCopy);
-            System.out.println("Quick Sort Random - Trocas: " + quickSortRandResult.swaps + ", Comparacoes: " + quickSortRandResult.comparisons + ", Tempo: " + quickSortRandResult.time + " ms (" + quickSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Quick Sort Aleatório - Trocas: " + quickSortRandResult.swaps + ", Comparacoes: " + quickSortRandResult.comparisons + ", Tempo: " + quickSortRandResult.time + " ms (" + quickSortRandResult.getTimeInSeconds() + " s)");
 
             arrayCopy = array.clone();
             SortResult bucketSortRandResult = Aleatorio.bucketSortRandom(arrayCopy);
-            System.out.println("Bucket Sort Random - Trocas: " + bucketSortRandResult.swaps + ", Comparacoes: " + bucketSortRandResult.comparisons + ", Tempo: " + bucketSortRandResult.time + " ms (" + bucketSortRandResult.getTimeInSeconds() + " s)");
+            System.out.println("Bucket Sort Aleatório - Trocas: " + bucketSortRandResult.swaps + ", Comparacoes: " + bucketSortRandResult.comparisons + ", Tempo: " + bucketSortRandResult.time + " ms (" + bucketSortRandResult.getTimeInSeconds() + " s)");
 
             // COUNTINGSORT
             System.out.println("\nCOUNTINGSORT:");
