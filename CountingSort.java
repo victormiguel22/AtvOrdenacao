@@ -76,6 +76,7 @@ public class CountingSort {
 	    // Contar ocorrências de cada elemento
 	    for (int i = 0; i < array.length; i++) {
 	        count[array[i] - min]++;
+	        comparisons++;
 	    }
 	    
 	    // Reconstruir o array em ordem decrescente
@@ -86,7 +87,9 @@ public class CountingSort {
 	            index++;
 	            count[i]--;
 	        }
+	        comparisons++;
 	    }
+	    comparisons++; // última vez em que o while falha
 	    
 	    long endTime = System.currentTimeMillis();
 	    return new SortResult(swaps, comparisons, endTime - startTime);
