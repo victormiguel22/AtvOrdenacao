@@ -85,7 +85,6 @@ public class CountingSort {
 	            array[index] = i + min;
 	            index++;
 	            count[i]--;
-	            swaps++; // Considerando cada colocação como um "swap"
 	        }
 	    }
 	    
