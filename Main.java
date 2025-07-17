@@ -12,7 +12,7 @@ public class Main {
             System.out.println("=== TAMANHO: " + size + " ===\n");
 
             // CRESCENTE
-            System.out.println("CRESCENTE:");
+           System.out.println("CRESCENTE:");
             int[] arrayCopy = array.clone();
             SortResult bubbleSortResult = Crescente.bubbleSort(arrayCopy);
             System.out.println("Bubble Sort - Trocas: " + bubbleSortResult.swaps + ", Comparacoes: " + bubbleSortResult.comparisons + ", Tempo: " + bubbleSortResult.time + " ms (" + bubbleSortResult.getTimeInSeconds() + " s)");
