@@ -3,11 +3,11 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int[] sizes = {100000, 1000000};
+        int[] sizes = {1000, 10000};
         Random rand = new Random();
 
         for (int size : sizes) {
-            int[] array = rand.ints(size, 1, 1000001).toArray();
+            int[] array = rand.ints(size, 1, 10001).toArray();
 
             System.out.println("=== TAMANHO: " + size + " ===\n");
 
